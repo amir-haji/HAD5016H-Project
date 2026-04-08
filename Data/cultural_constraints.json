@@ -1,0 +1,1796 @@
+[
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Use of traditional Chinese medicine (TCM) for symptom management",
+    "constraint_type": "treatment",
+    "description": "Many Chinese patients continue to rely on TCM therapies such as herbal mixtures, acupuncture, cupping and moxibustion to manage symptoms and side‑effects, believing these modalities restore balance and complement biomedical care.",
+    "clinical_domains": [
+      "oncology",
+      "primary care"
+    ],
+    "mechanism": "Herbal remedies and other TCM practices may have pharmacologic effects or interact with prescribed medications, and their use can delay or modify biomedical treatment plans. Clinicians must elicit TCM use to avoid herb–drug interactions and to integrate care respectfully.",
+    "affected_decisions": [
+      "treatment",
+      "adherence",
+      "follow-up"
+    ],
+    "example_impact": "In a multiple‑choice question about managing chemotherapy‑induced nausea, the correct answer might include asking about TCM herb use (e.g., Si‑Shen‑Tang) and considering potential interactions before prescribing antiemetics.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "additional history taking",
+      "medication adjustment"
+    ],
+    "should_not_change": [
+      "the cancer diagnosis"
+    ],
+    "evidence_source": "【267317685392892†L63-L77】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Cupping marks misinterpreted as abuse",
+    "constraint_type": "communication",
+    "description": "Cupping, a TCM practice that applies heated cups to the skin to ‘draw out toxins,’ leaves circular bruises. These marks may be mistaken for signs of physical abuse by clinicians unfamiliar with the practice.",
+    "clinical_domains": [
+      "emergency medicine",
+      "pediatrics"
+    ],
+    "mechanism": "Failure to recognise cupping marks can lead to unnecessary investigations for abuse or misreporting. Physicians should ask about traditional healing practices when they see patterned bruises.",
+    "affected_decisions": [
+      "diagnosis",
+      "screening"
+    ],
+    "example_impact": "In an MCQ about evaluating a child with round bruises on the back, the culturally aware option would include asking about cupping before initiating a child abuse work‑up.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "expanded differential diagnosis",
+      "patient history clarification"
+    ],
+    "should_not_change": [
+      "the clinician’s obligation to rule out abuse if warranted"
+    ],
+    "evidence_source": "【267317685392892†L67-L71】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Demand for albumin replacement due to perceived Qi deficiency",
+    "constraint_type": "treatment",
+    "description": "Some Chinese patients believe that ascites or hypoalbuminemia reflects a deficiency of vital energy (qi) and request intravenous albumin as a tonic to restore balance even when not medically indicated.",
+    "clinical_domains": [
+      "hepatology",
+      "critical care"
+    ],
+    "mechanism": "This belief may lead patients or families to insist on albumin infusions, pressuring physicians to administer unnecessary treatments. Clinicians must explain evidence‑based indications and address cultural beliefs respectfully.",
+    "affected_decisions": [
+      "treatment",
+      "adherence"
+    ],
+    "example_impact": "In a question about managing ascites in a patient with cirrhosis, the correct answer should recognise that albumin infusion is not indicated for isolated ascites and include counseling about qi‑related misconceptions.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "patient education",
+      "alternative management"
+    ],
+    "should_not_change": [
+      "the choice of diuretics and paracentesis for ascites management"
+    ],
+    "evidence_source": "【267317685392892†L81-L86】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Avoidance of cold foods based on yin–yang balance",
+    "constraint_type": "treatment",
+    "description": "Traditional yin–yang theory categorises foods as ‘cold’ or ‘hot’; many elders avoid cold foods and drinks, believing they aggravate illness or imbalance.",
+    "clinical_domains": [
+      "geriatrics",
+      "nutrition"
+    ],
+    "mechanism": "Dietary avoidance of cold foods may limit intake of fruits, salads or chilled drinks, impacting hydration and nutrition. Clinicians must adapt dietary advice to respect beliefs while ensuring adequate nutrition.",
+    "affected_decisions": [
+      "treatment",
+      "dietary counseling"
+    ],
+    "example_impact": "In nutritional counseling for hypertension, providers might recommend cooked vegetables over raw salads and warm fluids to accommodate yin–yang preferences while still promoting a low‑sodium diet.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "dietary modification"
+    ],
+    "should_not_change": [
+      "the underlying need to control blood pressure"
+    ],
+    "evidence_source": "【267317685392892†L88-L91】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Family‑centred decision‑making and deference to authority",
+    "constraint_type": "communication",
+    "description": "Confucian values emphasise familial harmony and respect for authority, leading Chinese patients to defer decisions to family or physicians and to nod politely even when they do not understand medical information.",
+    "clinical_domains": [
+      "all"
+    ],
+    "mechanism": "Patients may not voice concerns or preferences, and family members often assume decision‑making roles. Clinicians must explicitly invite the patient to share their wishes and ensure comprehension through teach‑back.",
+    "affected_decisions": [
+      "consent",
+      "treatment",
+      "follow-up"
+    ],
+    "example_impact": "In a case about advanced care planning, the best answer might include involving the family but also verifying the patient’s own preferences rather than assuming family decisions align with the patient.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "enhanced communication",
+      "shared decision making"
+    ],
+    "should_not_change": [
+      "respect for patient autonomy"
+    ],
+    "evidence_source": "【852475778244929†L51-L55】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Confucian familism limiting patient autonomy",
+    "constraint_type": "communication",
+    "description": "Chinese cultural norms view medical decisions as family affairs rather than individual choices. Family members may override the patient’s wishes or delay necessary treatments based on collective judgment.",
+    "clinical_domains": [
+      "obstetrics",
+      "surgery"
+    ],
+    "mechanism": "Familial authority can lead families to refuse recommended procedures, such as cesarean delivery, even when the patient desires it. Clinicians should be prepared to advocate for the patient and navigate cultural dynamics.",
+    "affected_decisions": [
+      "consent",
+      "treatment"
+    ],
+    "example_impact": "On an exam question about emergent cesarean section for fetal distress, the correct response would emphasise obtaining informed consent from the mother and addressing family objections through ethics consultation if necessary.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "ethical consultation",
+      "patient advocacy"
+    ],
+    "should_not_change": [
+      "clinical indication for cesarean"
+    ],
+    "evidence_source": "【356572735015284†L138-L147】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Family refusal of medically indicated procedures",
+    "constraint_type": "communication",
+    "description": "Familism can lead families to refuse treatments on behalf of a patient, as illustrated by cases where relatives denied the patient a requested cesarean section, resulting in harm.",
+    "clinical_domains": [
+      "obstetrics",
+      "emergency medicine"
+    ],
+    "mechanism": "Family refusal may delay or prevent life‑saving interventions. Clinicians must understand cultural motivations but prioritise the patient’s autonomy and safety through legal and ethical channels.",
+    "affected_decisions": [
+      "consent",
+      "treatment"
+    ],
+    "example_impact": "In a question about maternal cardiac arrest during labour, the appropriate answer would involve performing perimortem cesarean delivery without waiting for family approval if indicated to save the mother and child.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "emergency intervention",
+      "legal considerations"
+    ],
+    "should_not_change": [
+      "timeliness of life‑saving care"
+    ],
+    "evidence_source": "【356572735015284†L166-L174】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Delays in treatment due to family deliberation",
+    "constraint_type": "communication",
+    "description": "Because Chinese medical decisions are negotiated within the family, extended deliberation may occur before consenting to procedures. This can lead to delays in time‑sensitive treatments such as surgery or chemotherapy.",
+    "clinical_domains": [
+      "surgery",
+      "oncology"
+    ],
+    "mechanism": "Waiting for consensus can postpone interventions beyond optimal windows. Clinicians should anticipate these delays and provide clear, timely information to help families make informed decisions quickly.",
+    "affected_decisions": [
+      "consent",
+      "treatment"
+    ],
+    "example_impact": "In an exam scenario about appendicitis requiring urgent surgery, the correct management may include expedited consent discussions with family but emphasise the need for prompt appendectomy to prevent perforation.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "timing adjustment",
+      "communication strategies"
+    ],
+    "should_not_change": [
+      "standard of care for surgical emergencies"
+    ],
+    "evidence_source": "【356572735015284†L176-L222】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Collective decision‑making models in Chinese healthcare",
+    "constraint_type": "communication",
+    "description": "Chinese healthcare often uses collaborative decision models where doctors, patients and family members share decision‑making authority, aligning with cultural values of collectivism.",
+    "clinical_domains": [
+      "primary care",
+      "geriatrics"
+    ],
+    "mechanism": "Physicians may adopt a doctor‑patient‑family model rather than a strictly patient‑centred approach, influencing how information is presented and who participates in decisions. Understanding this helps structure conversations and consent forms.",
+    "affected_decisions": [
+      "consent",
+      "treatment",
+      "follow-up"
+    ],
+    "example_impact": "A test question on delivering bad news might require involving family members early and acknowledging their role while still ensuring the patient’s voice is heard.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "family engagement",
+      "shared decision making"
+    ],
+    "should_not_change": [
+      "truthful disclosure of diagnosis"
+    ],
+    "evidence_source": "【647080546987451†L239-L272】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Postpartum confinement: stay indoors and avoid exercise",
+    "constraint_type": "behavioral",
+    "description": "During the postpartum ‘zuo yuezi’ period, women are expected to remain indoors and limit physical activity for one month to restore balance and avoid exposure to wind or cold.",
+    "clinical_domains": [
+      "obstetrics",
+      "physiotherapy"
+    ],
+    "mechanism": "Restricted mobility increases risk of deep vein thrombosis, muscle atrophy and delayed recovery. Clinicians should encourage safe mobilization and counsel on thromboprophylaxis while respecting cultural practices.",
+    "affected_decisions": [
+      "treatment",
+      "adherence",
+      "follow-up"
+    ],
+    "example_impact": "In an exam question about postpartum care in a woman practicing zuo yuezi, the recommended management might include low‑dose heparin or compression stockings and gentle ambulation despite cultural rest norms.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "prophylaxis adjustment",
+      "patient counseling"
+    ],
+    "should_not_change": [
+      "monitoring for postpartum complications"
+    ],
+    "evidence_source": "【178257681255877†L276-L291】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Postpartum confinement: avoidance of bathing and dental hygiene",
+    "constraint_type": "behavioral",
+    "description": "Zuo yuezi discourages bathing, washing hair and brushing teeth for weeks postpartum due to fears of wind entering the body or weakening bones.",
+    "clinical_domains": [
+      "obstetrics",
+      "dentistry"
+    ],
+    "mechanism": "Poor hygiene can lead to skin infections, oral disease and overall discomfort. Clinicians should counsel on maintaining hygiene to prevent infection while acknowledging cultural beliefs.",
+    "affected_decisions": [
+      "treatment",
+      "adherence"
+    ],
+    "example_impact": "A test question could ask how to advise a postpartum woman who has not bathed in two weeks due to cultural practice; the correct response would encourage gentle hygiene to prevent mastitis and dental problems.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "patient education",
+      "infection prevention"
+    ],
+    "should_not_change": [
+      "routine postpartum follow‑up schedule"
+    ],
+    "evidence_source": "【178257681255877†L276-L291】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Postpartum confinement: restriction of cold and raw foods",
+    "constraint_type": "behavioral",
+    "description": "During zuo yuezi, women avoid cold foods, raw fruits and vegetables and prefer ‘warming’ foods such as ginger and chicken soup, based on yin–yang theory.",
+    "clinical_domains": [
+      "nutrition",
+      "obstetrics"
+    ],
+    "mechanism": "Dietary restrictions may lead to vitamin deficiencies, constipation or inadequate fiber. Healthcare providers should suggest nutrient‑dense warm foods to meet nutritional requirements.",
+    "affected_decisions": [
+      "treatment",
+      "dietary counseling"
+    ],
+    "example_impact": "An MCQ on postpartum nutrition for a woman practicing zuo yuezi may require recommending cooked leafy greens and fortified soups to provide iron and vitamins while honouring cultural preferences.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "dietary modification"
+    ],
+    "should_not_change": [
+      "recommendations for iron and calcium supplementation"
+    ],
+    "evidence_source": "【178257681255877†L276-L291】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Postpartum confinement: abstaining from sexual activity",
+    "constraint_type": "behavioral",
+    "description": "Zuo yuezi customs forbid sexual intercourse for at least a month after delivery to allow the woman’s body to heal and to avoid ‘wind’ entering the womb.",
+    "clinical_domains": [
+      "obstetrics",
+      "sexual health"
+    ],
+    "mechanism": "This practice may delay resumption of contraception and postpartum sexual health counseling. Clinicians should discuss contraception timing and pelvic floor recovery while respecting abstinence practices.",
+    "affected_decisions": [
+      "follow-up",
+      "adherence"
+    ],
+    "example_impact": "On an exam about postpartum contraception counseling, the culturally appropriate answer might schedule follow‑up at six weeks and emphasise contraceptive options that align with abstinence period.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "timing adjustment",
+      "counseling"
+    ],
+    "should_not_change": [
+      "assessment for postpartum complications"
+    ],
+    "evidence_source": "【178257681255877†L276-L291】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Postpartum confinement: giving honeysuckle and herbal supplements to infants",
+    "constraint_type": "treatment",
+    "description": "In some regions, elders encourage feeding newborns traditional herbs like honeysuckle and rice cereal alongside breastfeeding during the confinement period.",
+    "clinical_domains": [
+      "pediatrics",
+      "neonatology"
+    ],
+    "mechanism": "Introducing herbs and complementary feeds can interfere with exclusive breastfeeding and may pose risks of toxicity or contamination. Clinicians should educate families on exclusive breastfeeding and potential harms of unregulated herbal products.",
+    "affected_decisions": [
+      "treatment",
+      "adherence",
+      "follow-up"
+    ],
+    "example_impact": "A question on newborn feeding might require advising against honeysuckle supplements and reinforcing exclusive breastfeeding despite elder recommendations.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "dietary counseling",
+      "patient education"
+    ],
+    "should_not_change": [
+      "importance of breastfeeding"
+    ],
+    "evidence_source": "【229150577635312†L175-L186】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Postpartum confinement: avoidance of dental hygiene",
+    "constraint_type": "behavioral",
+    "description": "Some postpartum women avoid brushing teeth or using cold water for dental hygiene due to beliefs that chewing hard foods and cold water can harm teeth and bones.",
+    "clinical_domains": [
+      "dentistry",
+      "obstetrics"
+    ],
+    "mechanism": "Poor oral hygiene increases risk of dental caries and periodontal disease. Clinicians should counsel on using warm water and soft brushes to maintain oral hygiene during confinement.",
+    "affected_decisions": [
+      "treatment",
+      "adherence"
+    ],
+    "example_impact": "In a question about preventing postpartum dental complications, the correct answer would include advising gentle toothbrushing with warm water even during zuo yuezi.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "patient education"
+    ],
+    "should_not_change": [
+      "the need for oral hygiene"
+    ],
+    "evidence_source": "【229150577635312†L209-L218】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Belief that blood donation drains life energy (Qi)",
+    "constraint_type": "epidemiological",
+    "description": "Some Chinese individuals, particularly those participating in employer‑organised blood drives, believe that donating blood diminishes their life energy and therefore request extended leave or avoid donating.",
+    "clinical_domains": [
+      "transfusion medicine",
+      "public health"
+    ],
+    "mechanism": "This belief can reduce voluntary blood donations and influence donors’ recovery expectations. Clinicians and blood banks may need to reassure donors about recovery and dispel misconceptions to maintain blood supply.",
+    "affected_decisions": [
+      "screening",
+      "public health policy"
+    ],
+    "example_impact": "An exam question about increasing blood donation rates among Chinese workers might include educational campaigns addressing qi‑related fears and offering assurance about quick recovery.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "public health messaging"
+    ],
+    "should_not_change": [
+      "importance of safe blood donation"
+    ],
+    "evidence_source": "【681712667742978†L320-L323】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Continued use of herbal remedies during preoperative period",
+    "constraint_type": "treatment",
+    "description": "A large proportion of Chinese surgical patients report taking traditional herbal remedies and dietary supplements up to the time of surgery, often without informing their physicians.",
+    "clinical_domains": [
+      "anesthesiology",
+      "surgery"
+    ],
+    "mechanism": "Herbal products such as goji berry and Si‑Shen‑Tang may interact with anesthetic agents or increase bleeding risk. Failure to discontinue herbs can complicate anesthesia and intraoperative management. Preoperative assessment should include detailed questioning about herbal use.",
+    "affected_decisions": [
+      "treatment",
+      "preoperative assessment"
+    ],
+    "example_impact": "In a question about preparing a Chinese patient for elective surgery, the correct answer would include screening for herbal supplement use and advising discontinuation of certain products days before surgery.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "preoperative screening",
+      "medication adjustment"
+    ],
+    "should_not_change": [
+      "indication for surgery"
+    ],
+    "evidence_source": "【87796332720481†L275-L287】【87796332720481†L296-L320】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Herbal therapy continued alongside Western medications",
+    "constraint_type": "treatment",
+    "description": "More than one‑third of presurgical patients in Taiwan reported continuing traditional herbal remedies at the same time as prescribed Western medications, sometimes without disclosing this to their doctors.",
+    "clinical_domains": [
+      "surgery",
+      "pharmacology"
+    ],
+    "mechanism": "Simultaneous use of herbs and Western drugs increases the risk of herb–drug interactions, affecting pharmacokinetics and leading to adverse events. Clinicians should actively inquire about herbal use and adjust medications accordingly.",
+    "affected_decisions": [
+      "treatment",
+      "medication timing",
+      "follow-up"
+    ],
+    "example_impact": "An MCQ about postoperative bleeding might highlight that the patient was taking herbal supplements like ginseng and suggest withholding them pre‑operatively to minimise bleeding risk.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "medication adjustment",
+      "patient education"
+    ],
+    "should_not_change": [
+      "surgical technique"
+    ],
+    "evidence_source": "【87796332720481†L296-L320】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Use of goji berry and specific herbal formulas during pregnancy",
+    "constraint_type": "treatment",
+    "description": "Goji berry and Si‑Shen‑Tang are among the popular traditional herbs used by pregnant women and patients with asthma or gynecologic conditions, often perceived as nutritional tonics.",
+    "clinical_domains": [
+      "obstetrics",
+      "pulmonology"
+    ],
+    "mechanism": "Certain herbs may have pharmacologic effects (e.g., hypoglycemic or anticoagulant properties) that could affect pregnancy outcomes or interact with asthma medications. Clinicians should ask about specific herbal products to assess safety.",
+    "affected_decisions": [
+      "treatment",
+      "medication timing",
+      "follow-up"
+    ],
+    "example_impact": "In a question about managing asthma in a pregnant woman using goji berry, the correct answer would involve evaluating for herb–drug interactions and advising on safe herbal consumption.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "medication adjustment",
+      "patient education"
+    ],
+    "should_not_change": [
+      "use of inhaled corticosteroids as first-line therapy"
+    ],
+    "evidence_source": "【87796332720481†L275-L287】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Postpartum counsel influenced by elders",
+    "constraint_type": "communication",
+    "description": "Elders in Chinese families often transmit zuo yuezi practices and admonish younger women who deviate, creating tension between modern medical advice and family expectations.",
+    "clinical_domains": [
+      "obstetrics",
+      "public health"
+    ],
+    "mechanism": "Younger mothers may feel pressured to follow traditional practices even if they conflict with evidence-based recommendations, affecting adherence to postpartum care. Clinicians must engage elders in the conversation to negotiate culturally acceptable practices.",
+    "affected_decisions": [
+      "adherence",
+      "follow-up"
+    ],
+    "example_impact": "In an exam on counseling postpartum patients, the best response might involve inviting the grandmother to the discussion to align traditional practices with medical advice.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "family engagement",
+      "education"
+    ],
+    "should_not_change": [
+      "essential postpartum care guidelines"
+    ],
+    "evidence_source": "【229150577635312†L175-L186】【229150577635312†L209-L218】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Somatisation due to stigma of mental illness",
+    "constraint_type": "communication",
+    "description": "Because mental illness threatens a family’s ‘face’ in Chinese culture, individuals often express psychological distress through physical complaints and avoid acknowledging mental health issues.",
+    "clinical_domains": [
+      "psychiatry",
+      "primary care"
+    ],
+    "mechanism": "Clinicians may misattribute somatic symptoms to purely physical causes and miss underlying depression or anxiety. Probing gently about mood and functioning is essential when physical complaints lack organic findings.",
+    "affected_decisions": [
+      "diagnosis",
+      "treatment"
+    ],
+    "example_impact": "In a question about a patient with vague fatigue and headaches, recognising cultural somatisation may lead to screening for depression rather than ordering unnecessary imaging.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "differential diagnosis expansion",
+      "psychological screening"
+    ],
+    "should_not_change": [
+      "the need to rule out physical causes"
+    ],
+    "evidence_source": "【279549324415271†L291-L298】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Mental illness attributed to moral failing or ancestral wrongdoing",
+    "constraint_type": "behavioral",
+    "description": "Confucian and folk beliefs interpret mental illness as punishment for personal or ancestral wrongdoing or possession by demons, leading to shame and concealment of symptoms.",
+    "clinical_domains": [
+      "psychiatry",
+      "public health"
+    ],
+    "mechanism": "Such beliefs discourage individuals from seeking mental health care and can result in delayed diagnosis and treatment. Clinicians must recognise cultural explanations when addressing mental health stigma.",
+    "affected_decisions": [
+      "diagnosis",
+      "adherence",
+      "follow-up"
+    ],
+    "example_impact": "In an MCQ on a patient refusing psychiatric referral, the culturally sensitive option might include engaging community leaders or using culturally accepted metaphors for mental illness.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "psychoeducation",
+      "community engagement"
+    ],
+    "should_not_change": [
+      "pharmacologic management of the underlying disorder"
+    ],
+    "evidence_source": "【744913345762327†L703-L717】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Avoidance of surgery during Ghost Month",
+    "constraint_type": "behavioral",
+    "description": "The seventh lunar month, known as Ghost Month, is believed to be a time when spirits roam freely, causing many Chinese people to avoid major events like weddings and elective surgery to prevent misfortune.",
+    "clinical_domains": [
+      "surgery",
+      "obstetrics"
+    ],
+    "mechanism": "Patients may postpone necessary operations or inductions of labour into the next month, resulting in delays that can impact prognosis or maternal and fetal outcomes. Clinicians need to discuss scheduling concerns and monitor for complications.",
+    "affected_decisions": [
+      "treatment",
+      "scheduling",
+      "consent"
+    ],
+    "example_impact": "An exam question about scheduling elective knee replacement during Ghost Month might highlight the need to counsel patients on risks of delay while respecting cultural beliefs.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "timing adjustment",
+      "patient counseling"
+    ],
+    "should_not_change": [
+      "indication for surgery"
+    ],
+    "evidence_source": "【755726484982187†L502-L523】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Reduced surgical volume during Chinese New Year",
+    "constraint_type": "behavioral",
+    "description": "The twelfth lunar month leading to Chinese New Year is a time of family gatherings and festivals. Elective surgeries decline significantly during this period because patients prefer to be home for celebrations.",
+    "clinical_domains": [
+      "surgery",
+      "public health"
+    ],
+    "mechanism": "This seasonal reduction in surgical volume affects hospital scheduling and may delay elective procedures, necessitating planning for backlog and potential complications of deferred care.",
+    "affected_decisions": [
+      "scheduling",
+      "treatment"
+    ],
+    "example_impact": "A management question about hospital resource planning might include accounting for decreased elective procedures during Chinese New Year and arranging catch‑up clinics afterwards.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "resource planning"
+    ],
+    "should_not_change": [
+      "clinical prioritisation based on severity"
+    ],
+    "evidence_source": "【755726484982187†L532-L565】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Paternalistic truth‑telling: families receiving bad news first",
+    "constraint_type": "communication",
+    "description": "Chinese medical culture often dictates that physicians disclose serious diagnoses to family members before telling the patient, to spare the patient distress and preserve hope.",
+    "clinical_domains": [
+      "oncology",
+      "palliative care"
+    ],
+    "mechanism": "Withholding information from the patient may conflict with Western norms of informed consent and can impede autonomous decision‑making. Clinicians must balance cultural sensitivity with ethical obligations to inform the patient.",
+    "affected_decisions": [
+      "diagnosis",
+      "consent",
+      "treatment"
+    ],
+    "example_impact": "In a scenario where a patient has terminal cancer, the correct answer might involve discussing prognosis with both family and patient according to the patient’s preference, rather than automatically deferring to family wishes.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "communication strategy"
+    ],
+    "should_not_change": [
+      "truthfulness of medical information"
+    ],
+    "evidence_source": "【543712592712112†L115-L128】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Intravenous therapy seen as a sign of quality care",
+    "constraint_type": "treatment",
+    "description": "Many Chinese patients view intravenous drips as a symbol of thorough care and rapid recovery, leading to demands for IV antibiotics or fluids even for minor illnesses.",
+    "clinical_domains": [
+      "infectious diseases",
+      "primary care"
+    ],
+    "mechanism": "Overuse of intravenous therapy contributes to antibiotic resistance, unnecessary costs and risks (e.g., thrombophlebitis). Clinicians must manage expectations and educate patients about appropriate oral therapies.",
+    "affected_decisions": [
+      "treatment",
+      "medication timing",
+      "adherence"
+    ],
+    "example_impact": "In a question about treating a child with a viral upper respiratory infection, the correct answer should decline unnecessary IV antibiotics despite parental insistence and provide reassurance.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "treatment choice adjustment",
+      "patient education"
+    ],
+    "should_not_change": [
+      "evidence-based indication for antibiotics"
+    ],
+    "evidence_source": "【163051925252923†L63-L110】【693392657225970†L56-L99】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Expectations of rapid cure through injections",
+    "constraint_type": "treatment",
+    "description": "Cultural beliefs in parts of China and Taiwan equate injections and IV drips with a faster, more effective cure than oral medications, prompting patients to request injections even for self‑limiting illnesses.",
+    "clinical_domains": [
+      "primary care",
+      "pediatrics"
+    ],
+    "mechanism": "Preference for injections may lead to overuse of parenteral medications and conflict when physicians recommend conservative management. Clinicians should communicate the risks and benefits of different routes of administration.",
+    "affected_decisions": [
+      "treatment",
+      "adherence"
+    ],
+    "example_impact": "A test case about treating mild gastroenteritis might require politely declining requests for intravenous fluids and emphasising oral rehydration therapy.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "patient counseling",
+      "route of administration selection"
+    ],
+    "should_not_change": [
+      "diagnosis of self‑limited illness"
+    ],
+    "evidence_source": "【693392657225970†L56-L99】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Moral stigma leading to concealment of mental illness",
+    "constraint_type": "behavioral",
+    "description": "Cultural notions of ‘face’ mean that mental illness is viewed as shameful and contagious, leading families to hide affected members and avoid seeking psychiatric care to prevent damage to social reputation.",
+    "clinical_domains": [
+      "psychiatry",
+      "public health"
+    ],
+    "mechanism": "This stigma results in delayed presentation and under‑diagnosis of mental health disorders. Clinicians must look for subtle signs and provide confidential, non‑judgmental care.",
+    "affected_decisions": [
+      "diagnosis",
+      "treatment",
+      "follow-up"
+    ],
+    "example_impact": "In a question about identifying depression in an elderly Chinese man with insomnia and aches, recognising cultural stigma would guide the physician to explore mood symptoms privately and avoid involving extended family prematurely.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "screening",
+      "communication strategy"
+    ],
+    "should_not_change": [
+      "need to treat depression"
+    ],
+    "evidence_source": "【744913345762327†L703-L717】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Misattribution of mental illness to supernatural causes",
+    "constraint_type": "behavioral",
+    "description": "Traditional Chinese beliefs sometimes attribute mental illnesses to possession by spirits or demons, resulting in families seeking help from spiritual healers before mental health professionals.",
+    "clinical_domains": [
+      "psychiatry",
+      "primary care"
+    ],
+    "mechanism": "Delayed engagement with psychiatric services can worsen prognosis and hinder adherence to evidence‑based treatment. Recognising these beliefs allows clinicians to incorporate cultural healers into the care plan when appropriate.",
+    "affected_decisions": [
+      "diagnosis",
+      "treatment",
+      "follow-up"
+    ],
+    "example_impact": "A question about managing a psychotic patient might include working alongside a cultural healer while maintaining antipsychotic therapy, rather than dismissing the family’s beliefs.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "collaborative care",
+      "cultural integration"
+    ],
+    "should_not_change": [
+      "use of antipsychotic medication"
+    ],
+    "evidence_source": "【744913345762327†L703-L717】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "High prevalence of postpartum confinement (90% practice)",
+    "constraint_type": "behavioral",
+    "description": "Approximately 90% of women in some Chinese populations adhere to a month‑long confinement after birth, reflecting the pervasive cultural expectation of following zuo yuezi.",
+    "clinical_domains": [
+      "public health",
+      "obstetrics"
+    ],
+    "mechanism": "Because the practice is so widespread, postpartum care protocols must account for it when planning home visits, lactation support and physical rehabilitation. Failing to do so may reduce engagement with healthcare services.",
+    "affected_decisions": [
+      "follow-up",
+      "adherence"
+    ],
+    "example_impact": "An MCQ on designing a postpartum home‑visit program might require scheduling visits at the patient’s home rather than expecting clinic attendance during confinement.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "service delivery adaptation"
+    ],
+    "should_not_change": [
+      "postpartum surveillance for complications"
+    ],
+    "evidence_source": "【178257681255877†L286-L315】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Vitamin D deficiency due to confinement indoors",
+    "constraint_type": "epidemiological",
+    "description": "The practice of avoiding sunlight during zuo yuezi can lead to vitamin D deficiency and related musculoskeletal problems in postpartum women and infants.",
+    "clinical_domains": [
+      "endocrinology",
+      "pediatrics"
+    ],
+    "mechanism": "Lack of sun exposure reduces vitamin D synthesis, contributing to osteopenia and delayed infant bone development. Clinicians should consider vitamin D supplementation and safe sun exposure guidance.",
+    "affected_decisions": [
+      "treatment",
+      "screening",
+      "follow-up"
+    ],
+    "example_impact": "A test item on postpartum vitamin D management might include recommending supplements for a breastfeeding mother practicing confinement.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "supplement prescription"
+    ],
+    "should_not_change": [
+      "monitoring of other postpartum conditions"
+    ],
+    "evidence_source": "【178257681255877†L286-L315】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Herb–drug interactions due to concurrent use of TCM and Western medicine",
+    "constraint_type": "treatment",
+    "description": "Patients may not recognise potential interactions between traditional herbs and prescribed pharmaceuticals, continuing both concurrently and increasing risk of adverse effects.",
+    "clinical_domains": [
+      "pharmacology",
+      "primary care"
+    ],
+    "mechanism": "Herbs can induce or inhibit cytochrome P450 enzymes, alter drug metabolism and potentiate or antagonise effects (e.g., ginseng increasing bleeding risk). Clinicians must review all remedies to adjust doses or advise discontinuation.",
+    "affected_decisions": [
+      "treatment",
+      "medication timing"
+    ],
+    "example_impact": "In an MCQ about warfarin management, the correct answer would include asking about herbal supplements like ginseng and adjusting the warfarin dose or advising against herb use.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "medication adjustment",
+      "patient education"
+    ],
+    "should_not_change": [
+      "indication for anticoagulation"
+    ],
+    "evidence_source": "【87796332720481†L296-L320】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Elderly avoidance of medical terms and nodding politely",
+    "constraint_type": "communication",
+    "description": "Older Chinese patients may nod politely and avoid asking clarifying questions out of respect for doctors and to save face, even when they do not understand the information provided.",
+    "clinical_domains": [
+      "geriatrics",
+      "primary care"
+    ],
+    "mechanism": "Misunderstandings can lead to non‑adherence or incorrect self‑management. Clinicians should use teach‑back methods and simple language to confirm comprehension.",
+    "affected_decisions": [
+      "adherence",
+      "follow-up",
+      "treatment"
+    ],
+    "example_impact": "On an exam about diabetic foot care instructions, the correct answer would involve asking the patient to repeat back the instructions rather than assuming they understood.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "communication strategy"
+    ],
+    "should_not_change": [
+      "content of self‑care instructions"
+    ],
+    "evidence_source": "【852475778244929†L51-L55】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "High sodium diet through soy sauce and salted pickles",
+    "constraint_type": "epidemiological",
+    "description": "Traditional Chinese cuisine often includes soy sauce and salted pickles, contributing to high sodium intake and increased risk of hypertension and stroke.",
+    "clinical_domains": [
+      "cardiology",
+      "nephrology"
+    ],
+    "mechanism": "Excessive sodium intake can cause fluid retention and exacerbate hypertension. Clinicians should tailor dietary counseling to reduce salty condiments and pickled foods while offering culturally acceptable alternatives.",
+    "affected_decisions": [
+      "treatment",
+      "screening"
+    ],
+    "example_impact": "In a question about managing a Chinese patient with uncontrolled hypertension, recommending low‑sodium soy sauce and reducing pickled vegetables would be part of the treatment plan.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "dietary counseling"
+    ],
+    "should_not_change": [
+      "need for antihypertensive medications"
+    ],
+    "evidence_source": "【906547939343728†L11-L76】"
+  },
+  {
+    "culture_group": "Chinese",
+    "constraint_name": "Delaying disclosure of terminal diagnosis to protect hope",
+    "constraint_type": "communication",
+    "description": "Chinese families and some physicians believe that telling a patient about a terminal diagnosis will take away hope, so they may request that the physician conceal the prognosis.",
+    "clinical_domains": [
+      "oncology",
+      "palliative care"
+    ],
+    "mechanism": "Concealing prognosis can hinder advance care planning and informed consent for end‑of‑life care. Clinicians must navigate cultural expectations while ensuring the patient’s right to know and plan.",
+    "affected_decisions": [
+      "consent",
+      "treatment",
+      "follow-up"
+    ],
+    "example_impact": "In an exam scenario about discussing a terminal illness, the appropriate action would involve exploring the patient’s preferences for information disclosure rather than automatically withholding details at the family’s request.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "communication strategy",
+      "ethical decision-making"
+    ],
+    "should_not_change": [
+      "accuracy of medical information"
+    ],
+    "evidence_source": "【543712592712112†L115-L128】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "Non‑disclosure of terminal diagnoses",
+    "constraint_type": "communication",
+    "description": "In Japan, physicians often inform family members of a terminal cancer diagnosis but may withhold the information from the patient to avoid causing distress, reflecting a paternalistic tradition.",
+    "clinical_domains": [
+      "oncology",
+      "palliative care"
+    ],
+    "mechanism": "Patients may be kept unaware of their prognosis, limiting their ability to participate in advance care planning or consent to treatments. Clinicians must navigate family wishes and respect patient autonomy by discussing disclosure preferences early.",
+    "affected_decisions": [
+      "consent",
+      "treatment",
+      "follow-up"
+    ],
+    "example_impact": "In an exam question about breaking bad news to a Japanese patient, the appropriate answer would include exploring with the patient whether they want to know their diagnosis rather than automatically telling the family only.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "communication strategy"
+    ],
+    "should_not_change": [
+      "accuracy of medical information"
+    ],
+    "evidence_source": "【543712592712112†L130-L143】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "Family consent required for brain death determination",
+    "constraint_type": "consent",
+    "description": "Japanese physicians cannot declare brain death or proceed with organ procurement without explicit family consent, even if the patient meets neurological criteria for death.",
+    "clinical_domains": [
+      "critical care",
+      "transplantation"
+    ],
+    "mechanism": "Family involvement in the definition of death can delay withdrawal of life support or organ donation. Clinicians should anticipate extended discussions and respect cultural sensitivity around end‑of‑life decisions.",
+    "affected_decisions": [
+      "consent",
+      "treatment",
+      "organ donation"
+    ],
+    "example_impact": "A test question about managing a brain‑dead patient in Japan might require waiting for family agreement before declaring death and discussing organ donation options.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "timing adjustment",
+      "family engagement"
+    ],
+    "should_not_change": [
+      "criteria for brain death"
+    ],
+    "evidence_source": "【360619215569581†L161-L167】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "High sodium intake from miso soup",
+    "constraint_type": "epidemiological",
+    "description": "Miso soup is a staple of the Japanese diet and contributes significantly to daily sodium intake, with studies noting it accounts for about 17% of total sodium consumption.",
+    "clinical_domains": [
+      "cardiology",
+      "nephrology"
+    ],
+    "mechanism": "High dietary sodium increases risk of hypertension and chronic kidney disease. Clinicians advising Japanese patients should address miso soup consumption and suggest low‑sodium preparations or limiting servings.",
+    "affected_decisions": [
+      "treatment",
+      "dietary counseling"
+    ],
+    "example_impact": "In a question about lifestyle modification for hypertension in a Japanese patient, the correct answer would include recommending reducing miso soup or using low‑salt miso.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "dietary modification"
+    ],
+    "should_not_change": [
+      "need for antihypertensive therapy"
+    ],
+    "evidence_source": "【906547939343728†L11-L76】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "High sodium intake from pickled vegetables",
+    "constraint_type": "epidemiological",
+    "description": "Traditional Japanese pickles are another major source of dietary sodium, contributing around 12% of total sodium intake according to national surveys.",
+    "clinical_domains": [
+      "cardiology",
+      "nephrology"
+    ],
+    "mechanism": "Excess sodium from pickles exacerbates hypertension and renal disease. Clinicians should discuss portion control and alternatives, such as fresh or lightly salted vegetables.",
+    "affected_decisions": [
+      "treatment",
+      "dietary counseling"
+    ],
+    "example_impact": "An exam question on renal diet counseling might ask which foods to limit; the culturally appropriate answer would include Japanese pickles and salted side dishes.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "dietary modification"
+    ],
+    "should_not_change": [
+      "recommendation for fluid restriction if needed"
+    ],
+    "evidence_source": "【906547939343728†L11-L76】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "Stoic underreporting of pain and discomfort",
+    "constraint_type": "behavioral",
+    "description": "Japanese culture values perseverance and not burdening others (ganbatte), leading individuals to underreport pain or discomfort and to apologise when seeking medical care.",
+    "clinical_domains": [
+      "primary care",
+      "palliative care"
+    ],
+    "mechanism": "Underreporting can result in underestimated pain levels and inadequate analgesia. Clinicians should use objective pain scales and ask specific questions about function and wellbeing.",
+    "affected_decisions": [
+      "diagnosis",
+      "treatment"
+    ],
+    "example_impact": "In a question about postoperative pain management, recognising Japanese stoicism would prompt the physician to offer analgesia proactively rather than waiting for the patient to request it.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "proactive pain assessment",
+      "dose adjustment"
+    ],
+    "should_not_change": [
+      "use of multimodal analgesia"
+    ],
+    "evidence_source": "【676407958003749†L136-L163】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "Reluctance to request epidural analgesia during childbirth",
+    "constraint_type": "treatment",
+    "description": "Japanese women rarely request epidural analgesia in labour because enduring labour pain is considered normal and asking for pain relief may be seen as weakness.",
+    "clinical_domains": [
+      "obstetrics",
+      "anesthesiology"
+    ],
+    "mechanism": "Low demand for epidurals may influence hospitals’ availability and affect pain management plans. Clinicians should discuss analgesia options early and reassure that requesting pain relief is acceptable.",
+    "affected_decisions": [
+      "treatment",
+      "consent"
+    ],
+    "example_impact": "In an exam scenario about a pregnant Japanese woman, the correct answer might include proactively offering epidural or alternative analgesia and respecting her choice if she declines.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "patient counseling",
+      "treatment choice"
+    ],
+    "should_not_change": [
+      "safety monitoring during labour"
+    ],
+    "evidence_source": "【676407958003749†L136-L163】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "Self‑reliance hindering mental health help‑seeking",
+    "constraint_type": "access",
+    "description": "Many Japanese individuals believe they should handle problems independently and may deny the need for mental health services; low perceived need and a desire to cope alone were major reasons for not seeking care in national surveys.",
+    "clinical_domains": [
+      "psychiatry",
+      "public health"
+    ],
+    "mechanism": "This self‑reliance reduces mental health service utilisation, leading to untreated depression or anxiety. Clinicians should normalise help‑seeking and provide culturally sensitive education about mental health.",
+    "affected_decisions": [
+      "screening",
+      "adherence",
+      "follow-up"
+    ],
+    "example_impact": "An MCQ about improving mental health uptake among Japanese patients might include strategies such as community outreach and framing therapy as a means of self‑improvement rather than weakness.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "patient education",
+      "community outreach"
+    ],
+    "should_not_change": [
+      "evidence-based treatment recommendations"
+    ],
+    "evidence_source": "【522928061525350†L163-L166】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "Mental health stigma and underutilisation of services",
+    "constraint_type": "behavioral",
+    "description": "Stigma surrounding mental illness in Japan contributes to the underuse of mental health services; a survey found that around 80% of people diagnosed with mental disorders had not received care in the previous year.",
+    "clinical_domains": [
+      "psychiatry",
+      "public health"
+    ],
+    "mechanism": "Stigma deters patients from seeking treatment, leads to delayed diagnosis and poor adherence. Clinicians should create non‑judgmental environments and integrate mental health screening into primary care.",
+    "affected_decisions": [
+      "screening",
+      "treatment"
+    ],
+    "example_impact": "An exam question might ask why a Japanese patient with panic attacks declines referral; the correct answer would highlight stigma and propose offering discreet mental health resources.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "integrated care",
+      "confidential services"
+    ],
+    "should_not_change": [
+      "diagnostic criteria for mental illness"
+    ],
+    "evidence_source": "【961165608506157†L268-L281】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "Satogaeri bunben: returning to parental home for childbirth",
+    "constraint_type": "behavioral",
+    "description": "Japanese tradition encourages pregnant women to return to their parents’ home at 32–34 weeks gestation and remain there for months postpartum, receiving support from their mothers in childcare and breastfeeding.",
+    "clinical_domains": [
+      "obstetrics",
+      "public health"
+    ],
+    "mechanism": "This relocation may separate the woman from her husband and primary obstetrician, affecting continuity of care. Clinicians should coordinate with local providers and consider the social benefits and risks (e.g., postpartum depression).",
+    "affected_decisions": [
+      "follow-up",
+      "adherence"
+    ],
+    "example_impact": "A test question about postpartum support might include recognising satogaeri bunben and ensuring that the mother receives consistent care during her stay at her parents’ home.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "care coordination",
+      "family involvement"
+    ],
+    "should_not_change": [
+      "postpartum monitoring for complications"
+    ],
+    "evidence_source": "【872320008289619†L128-L150】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "Satogaeri bunben: separation from spouse during postpartum period",
+    "constraint_type": "behavioral",
+    "description": "While satogaeri provides maternal support, it temporarily separates the mother from her husband, which may affect couple bonding and paternal involvement in early childcare.",
+    "clinical_domains": [
+      "obstetrics",
+      "mental health"
+    ],
+    "mechanism": "Separation could contribute to postpartum depression or marital stress. Clinicians should encourage communication between partners and plan follow-up mental health screening.",
+    "affected_decisions": [
+      "follow-up",
+      "screening"
+    ],
+    "example_impact": "An exam question on postpartum depression risk factors may include satogaeri as a consideration and suggest scheduling mental health check‑ins.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "screening",
+      "counseling"
+    ],
+    "should_not_change": [
+      "breastfeeding recommendations"
+    ],
+    "evidence_source": "【872320008289619†L128-L150】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "Widespread prescribing of Kampo herbal medicines",
+    "constraint_type": "treatment",
+    "description": "Over 70% of Japanese physicians prescribe Kampo herbal medicines, which are integrated into mainstream healthcare and covered by national insurance.",
+    "clinical_domains": [
+      "primary care",
+      "pharmacology"
+    ],
+    "mechanism": "Kampo formulas have pharmacologic activity and may interact with Western medications. Physicians should consider both Kampo and biomedical prescriptions when planning treatment and monitor for interactions.",
+    "affected_decisions": [
+      "treatment",
+      "medication timing",
+      "follow-up"
+    ],
+    "example_impact": "A question about treating hypertension might need to account for a patient taking Kampo extracts that influence blood pressure, necessitating dose adjustments of antihypertensives.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "medication adjustment",
+      "interdisciplinary coordination"
+    ],
+    "should_not_change": [
+      "overall treatment goals"
+    ],
+    "evidence_source": "【612307451022682†L293-L309】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "Holistic Kampo diagnostic approach",
+    "constraint_type": "treatment",
+    "description": "Kampo medicine emphasises individualized diagnosis using pulse, tongue and abdominal examination to assess balance of ki, ketsu and sui (energy, blood and fluid).",
+    "clinical_domains": [
+      "complementary medicine",
+      "primary care"
+    ],
+    "mechanism": "Differences in diagnostic criteria may lead to divergent treatment plans from Western medicine. Clinicians should understand patients’ Kampo diagnoses to reconcile them with biomedical assessments and avoid conflicting therapies.",
+    "affected_decisions": [
+      "treatment",
+      "diagnosis"
+    ],
+    "example_impact": "In a question about a patient with chronic fatigue taking Kampo, the culturally aware answer would include asking about Kampo diagnosis and ensuring therapies do not overlap or contradict.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "history taking",
+      "coordinated care"
+    ],
+    "should_not_change": [
+      "evaluation for biomedical causes of fatigue"
+    ],
+    "evidence_source": "【612307451022682†L330-L345】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "Herb–drug interactions with Kampo medicines",
+    "constraint_type": "treatment",
+    "description": "Kampo formulas contain multiple herbal ingredients that can induce or inhibit metabolic pathways, potentially interacting with prescribed medications.",
+    "clinical_domains": [
+      "pharmacology",
+      "primary care"
+    ],
+    "mechanism": "Components such as licorice (in Shakuyaku‑kanzoto) can cause hypokalemia or hypertension, and ginseng can potentiate anticoagulants. Clinicians should review Kampo use when prescribing drugs with narrow therapeutic indices.",
+    "affected_decisions": [
+      "treatment",
+      "medication timing",
+      "follow-up"
+    ],
+    "example_impact": "An exam question on warfarin management for a patient taking Kampo might require checking for ginseng‑containing formulas and adjusting INR monitoring frequency.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "medication adjustment",
+      "patient education"
+    ],
+    "should_not_change": [
+      "need for anticoagulation"
+    ],
+    "evidence_source": "【612307451022682†L293-L309】【612307451022682†L330-L345】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "Karoshi: overwork as a cardiovascular risk factor",
+    "constraint_type": "epidemiological",
+    "description": "Karoshi refers to death or disability from cardiovascular events due to heavy workloads and long hours. It is recognized as a significant health problem in Japan.",
+    "clinical_domains": [
+      "cardiology",
+      "occupational health"
+    ],
+    "mechanism": "Long working hours and job stress increase the risk of myocardial infarction, stroke and sudden death. Clinicians should inquire about work patterns when assessing cardiovascular risk and counsel on work–life balance.",
+    "affected_decisions": [
+      "screening",
+      "treatment"
+    ],
+    "example_impact": "An MCQ about assessing coronary risk in a middle‑aged Japanese salaryman might include considering long work hours as a risk factor warranting aggressive risk factor modification.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "risk assessment",
+      "lifestyle counseling"
+    ],
+    "should_not_change": [
+      "standard treatment of acute coronary syndrome"
+    ],
+    "evidence_source": "【698001261264726†L74-L115】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "Stress and overwork leading to mental health issues",
+    "constraint_type": "behavioral",
+    "description": "Chronic overwork (karoshi) and societal pressure to persevere may contribute to depression, anxiety and suicide, yet individuals may be reluctant to seek help.",
+    "clinical_domains": [
+      "psychiatry",
+      "occupational health"
+    ],
+    "mechanism": "Work‑related stress is a risk factor for mental disorders. When evaluating Japanese patients with sleep disturbance or somatic complaints, clinicians should ask about job stress and provide resources for mental health support.",
+    "affected_decisions": [
+      "diagnosis",
+      "treatment",
+      "follow-up"
+    ],
+    "example_impact": "An exam scenario about insomnia in a Japanese businessman might require screening for depression related to overwork and suggesting stress management strategies.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "psychological screening",
+      "stress reduction counseling"
+    ],
+    "should_not_change": [
+      "evaluation for organic causes of symptoms"
+    ],
+    "evidence_source": "【698001261264726†L74-L115】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "Mental health stigma deterring help‑seeking",
+    "constraint_type": "behavioral",
+    "description": "Strong stigma toward mental illness in Japan, influenced by cultural expectations of self‑reliance and fear of burdening others, leads many individuals to avoid therapy or psychiatric care.",
+    "clinical_domains": [
+      "psychiatry",
+      "public health"
+    ],
+    "mechanism": "Stigma results in denial of mental health problems and low utilisation of services. Clinicians should normalise mental health discussions and provide confidential support options.",
+    "affected_decisions": [
+      "screening",
+      "treatment"
+    ],
+    "example_impact": "In a question about a Japanese teenager with anxiety, the culturally informed approach would include offering anonymous counseling resources and engaging the family in destigmatising conversations.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "patient education",
+      "confidential services"
+    ],
+    "should_not_change": [
+      "recommendation for cognitive behavioural therapy or medication if indicated"
+    ],
+    "evidence_source": "【522928061525350†L163-L166】【961165608506157†L268-L281】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "Removal of labels and medical information to conceal diagnoses",
+    "constraint_type": "communication",
+    "description": "In the context of paternalistic care, Japanese healthcare providers sometimes remove medication labels or withhold test results to prevent the patient from learning about a serious diagnosis like cancer.",
+    "clinical_domains": [
+      "oncology",
+      "primary care"
+    ],
+    "mechanism": "This practice can impair medication adherence and informed consent. Clinicians should instead discuss the patient’s preferences for information and work towards transparency while respecting cultural norms.",
+    "affected_decisions": [
+      "treatment",
+      "consent"
+    ],
+    "example_impact": "An exam question on medication adherence might note that the patient does not know the purpose of their chemotherapy; the correct response would involve educating the patient rather than hiding labels.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "communication strategy"
+    ],
+    "should_not_change": [
+      "accuracy of dosing"
+    ],
+    "evidence_source": "【543712592712112†L130-L143】"
+  },
+  {
+    "culture_group": "Japanese",
+    "constraint_name": "Family‑mediated consent for organ donation",
+    "constraint_type": "consent",
+    "description": "Due to cultural and legal frameworks, family members play a decisive role in organ donation decisions in Japan; some families prefer donation only after circulatory death or not at all.",
+    "clinical_domains": [
+      "transplantation",
+      "ethics"
+    ],
+    "mechanism": "Even when the patient may have indicated willingness to donate, family objections can prevent organ procurement, affecting transplant availability. Clinicians should engage with families and clarify differing religious and cultural positions.",
+    "affected_decisions": [
+      "organ donation",
+      "consent"
+    ],
+    "example_impact": "In a question about maximising organ donation rates, acknowledging family consent as a prerequisite in Japan would influence strategies such as public education and early family discussions.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "public health education",
+      "family engagement"
+    ],
+    "should_not_change": [
+      "medical criteria for donor suitability"
+    ],
+    "evidence_source": "【360619215569581†L161-L167】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "Fasting during Ramadan among high‑risk patients",
+    "constraint_type": "medication timing",
+    "description": "Despite religious exemptions, many Muslim patients with chronic illnesses such as diabetes insist on fasting during Ramadan, increasing the risk of hypoglycemia, hyperglycemia and cardiovascular events.",
+    "clinical_domains": [
+      "endocrinology",
+      "cardiology"
+    ],
+    "mechanism": "Fasting changes meal patterns to pre‑dawn (suhoor) and post‑sunset (iftar), requiring adjustment of medication dosing and monitoring. Patients who do not consult physicians may continue regular dosing, leading to complications.",
+    "affected_decisions": [
+      "medication timing",
+      "treatment",
+      "follow-up"
+    ],
+    "example_impact": "An MCQ on managing a fasting diabetic during Ramadan would require shifting insulin doses to align with meals and advising on frequent glucose monitoring.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "dose adjustment",
+      "patient education"
+    ],
+    "should_not_change": [
+      "recommendation to monitor blood glucose"
+    ],
+    "evidence_source": "【384415560929582†L143-L186】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "Fasting against medical advice",
+    "constraint_type": "behavioral",
+    "description": "Even when medically ill, many Muslims fast during Ramadan without seeking medical guidance, believing it to be a religious obligation despite exemptions for the sick and pregnant.",
+    "clinical_domains": [
+      "endocrinology",
+      "obstetrics"
+    ],
+    "mechanism": "Patients may avoid medications or adjust dosing independently, increasing the risk of hypoglycemia, dehydration, and pregnancy complications. Clinicians should provide pre‑Ramadan counseling and emphasise permissible exemptions.",
+    "affected_decisions": [
+      "treatment",
+      "adherence",
+      "medication timing"
+    ],
+    "example_impact": "A question about managing a pregnant woman with diabetes who insists on fasting would require advising her of health risks and religious allowances while offering nutritional and medication adjustments if she chooses to fast.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "patient counseling",
+      "medication adjustment"
+    ],
+    "should_not_change": [
+      "monitoring for maternal and fetal complications"
+    ],
+    "evidence_source": "【384415560929582†L143-L186】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "Male guardian refusal delaying women’s care",
+    "constraint_type": "consent",
+    "description": "In some Arab societies, male guardians may believe they must consent to a woman’s medical treatment, leading to delays or refusal of life‑saving interventions despite laws granting women autonomy.",
+    "clinical_domains": [
+      "obstetrics",
+      "emergency medicine"
+    ],
+    "mechanism": "Women may be unable to consent to surgeries or therapies without a husband’s approval. Healthcare providers must be aware of legal rights and advocate for the patient, while addressing cultural misconceptions.",
+    "affected_decisions": [
+      "consent",
+      "treatment"
+    ],
+    "example_impact": "In an exam about managing obstructed labour, the correct answer would involve proceeding with a cesarean section based on the woman’s consent even if the husband initially refuses.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "legal consultation",
+      "patient advocacy"
+    ],
+    "should_not_change": [
+      "urgency of life‑saving care"
+    ],
+    "evidence_source": "【792863979842417†L164-L177】【792863979842417†L184-L199】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "Preference for female healthcare providers",
+    "constraint_type": "access",
+    "description": "Due to cultural norms of modesty, many Arabic women prefer to be examined by female physicians and may delay seeking care if only male providers are available.",
+    "clinical_domains": [
+      "gynecology",
+      "primary care"
+    ],
+    "mechanism": "Limited availability of female providers can result in delayed diagnosis and management of conditions such as breast or cervical cancers. Clinics should accommodate gender preferences when possible and provide chaperones to facilitate care.",
+    "affected_decisions": [
+      "screening",
+      "treatment",
+      "follow-up"
+    ],
+    "example_impact": "On an exam about cervical cancer screening in a conservative Muslim patient, the correct approach would include offering a female clinician or chaperoned exam to improve adherence.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "provider selection",
+      "counseling"
+    ],
+    "should_not_change": [
+      "recommendation for routine screening"
+    ],
+    "evidence_source": "【792863979842417†L233-L245】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "High prevalence of consanguineous marriages",
+    "constraint_type": "epidemiological",
+    "description": "Consanguinity remains common in many Arab countries, with 20–50% of marriages occurring between relatives, often first cousins, due to social and economic factors.",
+    "clinical_domains": [
+      "genetics",
+      "public health"
+    ],
+    "mechanism": "Offspring of consanguineous unions have an increased risk of autosomal recessive disorders, congenital anomalies and genetic diseases. Clinicians should offer pre‑marital and pre‑conception genetic counseling and consider family history when ordering tests.",
+    "affected_decisions": [
+      "screening",
+      "diagnosis",
+      "treatment"
+    ],
+    "example_impact": "In a case about a child with developmental delay from a consanguineous union, the differential diagnosis should include inherited metabolic disorders and prompt appropriate genetic testing.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "genetic counseling",
+      "screening"
+    ],
+    "should_not_change": [
+      "provision of supportive therapies"
+    ],
+    "evidence_source": "【879681215959607†L180-L213】【879681215959607†L263-L302】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "Autosomal recessive disease risk from consanguinity",
+    "constraint_type": "epidemiological",
+    "description": "Children born to consanguineous parents have a significantly higher risk of autosomal recessive diseases, including rare blood disorders, renal anomalies and metabolic diseases.",
+    "clinical_domains": [
+      "pediatrics",
+      "genetics"
+    ],
+    "mechanism": "Shared genetic mutations between relatives increase homozygosity. Physicians should screen at‑risk families and provide early interventions to manage or prevent complications.",
+    "affected_decisions": [
+      "screening",
+      "diagnosis",
+      "treatment"
+    ],
+    "example_impact": "An MCQ about evaluating an infant with failure to thrive in a consanguineous family would require considering inherited metabolic disorders and ordering appropriate enzyme assays.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "diagnostic workup",
+      "genetic counseling"
+    ],
+    "should_not_change": [
+      "symptomatic management"
+    ],
+    "evidence_source": "【879681215959607†L180-L213】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "Socio‑cultural drivers of consanguinity",
+    "constraint_type": "behavioral",
+    "description": "Consanguineous marriages persist in rural and less‑educated communities due to perceived benefits like family stability, economic security and maintenance of land or wealth.",
+    "clinical_domains": [
+      "public health",
+      "community medicine"
+    ],
+    "mechanism": "Understanding socio‑cultural motivations helps tailor public health interventions and genetic counseling programs. Clinicians should approach the topic sensitively and respect familial reasons while providing education about risks.",
+    "affected_decisions": [
+      "screening",
+      "follow-up"
+    ],
+    "example_impact": "A question about reducing congenital disease incidence might include community education campaigns that address socio‑cultural reasons for consanguinity and promote genetic counseling.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "community engagement",
+      "education"
+    ],
+    "should_not_change": [
+      "respect for cultural autonomy"
+    ],
+    "evidence_source": "【879681215959607†L263-L302】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "Hijamah (wet cupping) as a preferred therapy",
+    "constraint_type": "treatment",
+    "description": "Hijamah or wet cupping is widely practised in Arab countries, endorsed by prophetic traditions as a remedy for illness; many patients seek it even before evidence‑based medical care.",
+    "clinical_domains": [
+      "primary care",
+      "public health"
+    ],
+    "mechanism": "Reliance on cupping may delay presentation to medical clinics and result in untreated or worsened conditions. Clinicians should inquire about cupping practices, educate about indications, and monitor for infections or anemia.",
+    "affected_decisions": [
+      "diagnosis",
+      "treatment",
+      "follow-up"
+    ],
+    "example_impact": "In a case of chronic low back pain, the correct answer might involve recognising the patient’s use of hijamah and providing guidance on integrating it safely with physical therapy.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "patient education",
+      "monitoring for complications"
+    ],
+    "should_not_change": [
+      "recommendation for evidence‑based therapies"
+    ],
+    "evidence_source": "【109410240459387†L188-L233】【109410240459387†L274-L289】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "Delaying medical care in favour of hijamah",
+    "constraint_type": "behavioral",
+    "description": "Because prophetic medicine emphasises hijamah’s healing power, some patients prefer cupping and other traditional remedies over modern medical interventions, delaying proper treatment.",
+    "clinical_domains": [
+      "primary care",
+      "infectious diseases"
+    ],
+    "mechanism": "Patients may present late with advanced diseases after traditional therapies fail. Clinicians should acknowledge their beliefs and encourage timely medical evaluation while allowing culturally important practices when safe.",
+    "affected_decisions": [
+      "diagnosis",
+      "treatment",
+      "follow-up"
+    ],
+    "example_impact": "A test question about a patient with pneumonia who first sought cupping might emphasise prompt antibiotic therapy despite initial reliance on hijamah.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "timely medical intervention",
+      "education"
+    ],
+    "should_not_change": [
+      "choice of appropriate antibiotics"
+    ],
+    "evidence_source": "【109410240459387†L188-L233】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "Attribution of mental illness to jinn or evil eye",
+    "constraint_type": "behavioral",
+    "description": "In many Muslim communities, mental illness is commonly attributed to possession by jinn, the evil eye or black magic, leading families to seek spiritual remedies instead of psychiatric care.",
+    "clinical_domains": [
+      "psychiatry",
+      "primary care"
+    ],
+    "mechanism": "Supernatural explanations discourage engagement with mental health services and delay treatment. Clinicians should acknowledge these beliefs and, when appropriate, integrate religious counseling with medical therapy.",
+    "affected_decisions": [
+      "diagnosis",
+      "treatment",
+      "follow-up"
+    ],
+    "example_impact": "An exam question about treating a patient with psychosis might include collaborating with an imam or spiritual healer to support adherence to antipsychotic medication.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "cultural integration",
+      "patient education"
+    ],
+    "should_not_change": [
+      "use of evidence‑based psychiatric treatment"
+    ],
+    "evidence_source": "【503045188234635†L240-L243】【154022150717764†L326-L361】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "Belief that mental illness is divine punishment or weakness of faith",
+    "constraint_type": "behavioral",
+    "description": "Some Muslims view mental illness as a punishment from God or a result of weak faith, leading to shame and reluctance to acknowledge psychological symptoms.",
+    "clinical_domains": [
+      "psychiatry",
+      "public health"
+    ],
+    "mechanism": "This belief fosters stigma and deters help‑seeking, with affected individuals and families avoiding mental health services. Clinicians must approach with empathy, normalise mental disorders and involve religious leaders to reduce stigma.",
+    "affected_decisions": [
+      "screening",
+      "treatment",
+      "follow-up"
+    ],
+    "example_impact": "A test question could ask how to counsel a Muslim patient who sees depression as a sign of weak faith; the correct response would include faith‑based psychoeducation and reassurance.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "psychoeducation",
+      "collaboration with religious leaders"
+    ],
+    "should_not_change": [
+      "necessity of medical management"
+    ],
+    "evidence_source": "【503045188234635†L566-L606】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "Family concealment of mental illness to avoid stigma",
+    "constraint_type": "communication",
+    "description": "Families may hide a member’s mental illness to protect the family’s reputation, fearing that disclosure could lead to social exclusion or impact marriage prospects for relatives.",
+    "clinical_domains": [
+      "psychiatry",
+      "family medicine"
+    ],
+    "mechanism": "Concealment delays treatment and may result in presentations only when crises occur. Clinicians should maintain confidentiality and build trust to encourage disclosure and timely intervention.",
+    "affected_decisions": [
+      "diagnosis",
+      "treatment"
+    ],
+    "example_impact": "An MCQ about a young woman with untreated schizophrenia might note that her family hid her symptoms; the correct approach would involve addressing stigma and engaging the family in treatment planning.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "family counseling",
+      "education"
+    ],
+    "should_not_change": [
+      "pharmacologic treatment plan"
+    ],
+    "evidence_source": "【503045188234635†L566-L606】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "Need for male companion for women seeking mental health care",
+    "constraint_type": "access",
+    "description": "Cultural norms may require women to be accompanied by a male relative when consulting a male therapist or traveling to a mental health clinic, creating barriers to accessing care.",
+    "clinical_domains": [
+      "psychiatry",
+      "public health"
+    ],
+    "mechanism": "These restrictions limit women’s privacy and autonomy, delaying or preventing mental health visits. Provision of female therapists, telepsychiatry and family education can improve access.",
+    "affected_decisions": [
+      "screening",
+      "treatment",
+      "follow-up"
+    ],
+    "example_impact": "In an exam question about improving mental health service uptake among Muslim women, the correct answer might suggest offering female providers and flexible appointment options.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "service delivery adaptation",
+      "community outreach"
+    ],
+    "should_not_change": [
+      "quality of mental health care"
+    ],
+    "evidence_source": "【503045188234635†L622-L645】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "Reliance on faith healers before mental health professionals",
+    "constraint_type": "behavioral",
+    "description": "Many individuals in the Middle East consult faith healers, such as imams or Quranic healers, before seeking professional mental health care, especially for conditions attributed to supernatural causes.",
+    "clinical_domains": [
+      "psychiatry",
+      "public health"
+    ],
+    "mechanism": "Time spent with faith healers may delay evidence‑based diagnosis and treatment, leading to disease progression. Integrating spiritual support with psychiatric care may improve adherence.",
+    "affected_decisions": [
+      "diagnosis",
+      "treatment",
+      "follow-up"
+    ],
+    "example_impact": "A test question might ask how to manage a patient whose family insists on spiritual healing for depression; the answer would include collaborating with faith healers and educating about complementary roles.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "collaboration",
+      "patient education"
+    ],
+    "should_not_change": [
+      "prescribing antidepressants when indicated"
+    ],
+    "evidence_source": "【154022150717764†L326-L361】【154022150717764†L390-L399】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "Use of black seed (Nigella sativa) as a universal remedy",
+    "constraint_type": "treatment",
+    "description": "Black seed is highly valued in prophetic medicine and is believed to cure all diseases except death; many Muslims use it as a self‑treatment for various conditions.",
+    "clinical_domains": [
+      "primary care",
+      "complementary medicine"
+    ],
+    "mechanism": "Perceiving black seed as a panacea may lead patients to delay or replace conventional therapy. Clinicians should ask about its use and clarify realistic expectations while addressing potential interactions.",
+    "affected_decisions": [
+      "treatment",
+      "adherence"
+    ],
+    "example_impact": "In a question about managing hypertension, a patient may rely solely on black seed; the correct response would emphasise continuing antihypertensive medication and allowing black seed as a supplement if safe.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "patient education",
+      "medication adjustment"
+    ],
+    "should_not_change": [
+      "necessity of evidence‑based therapy"
+    ],
+    "evidence_source": "【493728569141003†L190-L193】【493728569141003†L260-L273】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "Divergent views on organ donation and body integrity",
+    "constraint_type": "consent",
+    "description": "Muslim opinion on organ donation varies: some scholars permit donation after brain or circulatory death, whereas others consider organ removal haram because the body must remain intact for burial.",
+    "clinical_domains": [
+      "transplantation",
+      "ethics"
+    ],
+    "mechanism": "Families may refuse donation due to religious interpretations, affecting donor availability. Healthcare providers should respect differing views and provide clear information about religious rulings to aid decision‑making.",
+    "affected_decisions": [
+      "consent",
+      "organ donation"
+    ],
+    "example_impact": "An exam question about counselling a Muslim family on organ donation would require addressing concerns about body integrity and presenting differing fatwa opinions.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "religious counseling",
+      "information provision"
+    ],
+    "should_not_change": [
+      "medical suitability for donation"
+    ],
+    "evidence_source": "【902533963036467†L84-L110】【902533963036467†L121-L129】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "Adjustment of medication schedule during fasting",
+    "constraint_type": "medication timing",
+    "description": "During Ramadan fasting, patients shift medication intake to pre‑dawn and post‑sunset periods; dosing intervals may shorten or lengthen depending on drug regimens.",
+    "clinical_domains": [
+      "pharmacology",
+      "endocrinology"
+    ],
+    "mechanism": "Incorrectly adjusting medications can lead to subtherapeutic or toxic drug levels. Clinicians should plan dosing schedules that maintain therapeutic levels while accommodating fasting times.",
+    "affected_decisions": [
+      "medication timing",
+      "treatment"
+    ],
+    "example_impact": "An MCQ about a patient on twice‑daily antihypertensives during Ramadan might require spacing doses at suhoor and iftar and adjusting doses to avoid hypotension at night.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "dose adjustment",
+      "patient education"
+    ],
+    "should_not_change": [
+      "indication for the medication"
+    ],
+    "evidence_source": "【384415560929582†L143-L186】"
+  },
+  {
+    "culture_group": "Arabic",
+    "constraint_name": "Modesty impacting physical examinations",
+    "constraint_type": "access",
+    "description": "Cultural norms of modesty may lead Muslim women to avoid exposing their bodies during medical examinations; they may refuse to remove hijab or clothing, hindering thorough assessments.",
+    "clinical_domains": [
+      "primary care",
+      "gynecology"
+    ],
+    "mechanism": "Reluctance to undress can result in missed diagnoses, especially for breast and pelvic exams. Offering female providers, privacy and respectful explanations can improve compliance.",
+    "affected_decisions": [
+      "diagnosis",
+      "screening",
+      "treatment"
+    ],
+    "example_impact": "In a clinical skills question, the appropriate approach would involve offering a female examiner and ensuring a private environment before asking a Muslim woman to change into a gown.",
+    "can_change_answer": true,
+    "valid_answer_change_modes": [
+      "provider selection",
+      "communication strategy"
+    ],
+    "should_not_change": [
+      "need for thorough examination"
+    ],
+    "evidence_source": "【792863979842417†L233-L245】"
+  }
+]
